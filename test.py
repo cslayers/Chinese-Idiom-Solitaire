@@ -22,7 +22,7 @@ last_index_store = {}
 
 
 def build_word_set():
-    with open("../idiom.json", 'r') as load_f:
+    with open("./idiom.json", 'r') as load_f:
         dict_json = json.load(load_f)
     for item in dict_json:
         word = item['word']
